@@ -1,0 +1,8 @@
+def get_diff(n1, n2):
+    diff = abs(n1-n2)
+    return diff
+
+n1 = 15
+n2 = 37
+difference = get_diff(n1, n2)
+print(difference)
